@@ -1,0 +1,31 @@
+[global_config]
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.61
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 16
+    show_titlebar = False
+    use_system_font = False
+  [[Candy]]
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 16
+    use_system_font = False
+  [[default0]]
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 16
+    palette = "#2e3436:#fa2573:#a6e32d:#fc951e:#c48dff:#fa2573:#67d9f0:#f2f2f2:#555753:#fa2573:#8ae234:#fce94f:#729fcf:#fa2573:#34e2e2:#eeeeec"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
